@@ -1,0 +1,13 @@
+# Ignore Python bytecode files
+__pycache__/
+*.pyc
+
+# Ignore virtual environment folder (myenv)
+myenv/
+
+# Ignore model and training data files
+
+# Ignore notebook checkpoints
+.ipynb_checkpoints/
+
+
