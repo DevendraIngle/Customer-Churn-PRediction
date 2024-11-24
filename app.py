@@ -20,7 +20,7 @@ with open('scaler.pkl', 'rb') as file:
 
 
 ## streamlit app
-st.title('🚀 Customer Churn Prediction with AI 💡')
+st.markdown("<h2>🚀 Customer Churn Prediction with AI 💡</h2>", unsafe_allow_html=True)
 
 # User input
 geography = st.selectbox('Geography', onehot_encoder_geo.categories_[0])
